@@ -108,4 +108,3 @@ In the command line, you'll most often be running the following commands:
 * [The Lengths [Units] of CSS](https://css-tricks.com/the-lengths-of-css/)
 * [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 * [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
-* [Sass Basics](https://sass-lang.com/guide)
