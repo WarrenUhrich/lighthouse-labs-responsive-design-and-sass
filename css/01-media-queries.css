@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    background-color: olivedrab;
+    padding: 3rem;
+}
+
+section {
+    padding: 3rem;
+}
+
+#about {
+    background-color: sienna;
+}
+
+#services {
+    background-color: aquamarine;
+}
+
+#contact {
+    background-color: salmon;
+}
+
+#testimonials {
+    background-color: midnightblue
+}
+
+#sponsors {
+    background-color:tomato;
+}
+
