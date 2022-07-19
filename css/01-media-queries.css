@@ -10,6 +10,11 @@ html {
     color: black;
 }
 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1 {
     background-color: olivedrab;
     padding: 3rem;
@@ -39,6 +44,7 @@ section {
     background-color:tomato;
 }
 
+/* Tablet Styles! */
 @media screen and (min-width: 400px) {
     h1 {
         text-align: center;
@@ -57,5 +63,31 @@ section {
 
     #sponsors {
         width: 100%;
+    }
+}
+
+/* Desktop styles! */
+@media screen and (min-width: 980px) {
+    h1 {
+        height: calc(100vh / 3);
+    }
+
+    section {
+        width: calc(100% / 3);
+        height: calc(100vh / 3);
+    }
+
+    #testimonials,
+    #sponsors {
+        width: 50%;
+    }
+}
+
+/* Feel free to improve the printing experience. */
+@media print {
+    * {
+        color: black;
+        background: white;
+        padding: 0.5rem;
     }
 }

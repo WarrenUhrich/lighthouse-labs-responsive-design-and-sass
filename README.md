@@ -45,3 +45,12 @@ h1 {
         font-size: 48px;
     }
 }
+
+## Preprocessors!?
+
+* TypeScript / CoffeeScript / Sass / Less
+* Why??? -> Minification
+* Web Browser: What languages can the browser understand?
+    * HTML
+    * CSS
+    * JS
