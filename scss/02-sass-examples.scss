@@ -1,3 +1,14 @@
+@import 'variables';
+
+// Look, I'm commenting; double-slash is not included in compiled code!
+
+/* This comment will show to the browser. */
+
+h1 {
+    color: $secondaryColour;
+    background-color: $primaryColour;
+}
+
 nav {
     ul {
         list-style: none;
@@ -9,11 +20,16 @@ nav {
 
         li {
             padding: 0.5rem;
+            @include lists();
 
             &:hover {
-                color: white;
-                background-color: crimson;
+                color: $secondaryColour;
+                background-color: $primaryColour;
             }
         }
     }
+}
+
+main ul li {
+    @include lists(white);
 }

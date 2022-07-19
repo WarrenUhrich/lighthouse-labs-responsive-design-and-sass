@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/02-sass-examples.scss"],"names":[],"mappings":"AACI;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAEA;EACI;EACA","file":"02-sass-examples.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/02-sass-examples.scss","../scss/_variables.scss"],"names":[],"mappings":"AAIA;AAEA;EACI,OCNc;EDOd,kBCRY;;;ADYZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EChBR,OALY;EAMZ;EACA,kBAHoB;;ADoBZ;EACI,OCxBE;EDyBF,kBC1BA;;;ADgChB;EC3BI,OALY;EAMZ;EACA,kBD0Be","file":"02-sass-examples.css"}

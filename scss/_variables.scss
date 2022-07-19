@@ -1,0 +1,9 @@
+$primaryColour: crimson;
+$secondaryColour: white;
+$padding: 1.7525rem;
+
+@mixin lists($bgColour: transparent) {
+    color: $primaryColour;
+    text-decoration: underline;
+    background-color: $bgColour;
+}
