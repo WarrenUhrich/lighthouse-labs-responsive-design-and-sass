@@ -19,3 +19,15 @@
 * vh, vw
 * em, rem
 * percent
+
+## Transpilation / Preprocessing
+
+We get write code with "additional features" or nicer syntax, but the code still has to be converted (transpiled) to a more appropriate target langauge.
+
+JavaScript:
+* CoffeeScript ---> JavaScript
+* TypeScript ---> JavaScript
+
+CSS:
+* LESS ---> CSS
+* Sass ---> CSS
