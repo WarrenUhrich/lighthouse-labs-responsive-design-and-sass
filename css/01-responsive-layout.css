@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    color: black;
+    font-size: 16px;
+}
+
+/* #header,
+#navigation,
+#services,
+#about-us,
+#contact,
+#gallery,
+#footer {
+
+} */
+
+body > * {
+    height: 10rem;
+}
+
+
+#header { background-color: lightsalmon; }
+#navigation { background-color: paleturquoise; }
+#services { background-color: lightgreen; }
+#about-us { background-color: lightcoral; }
+#contact { background-color: yellow; }
+#gallery { background-color: darkolivegreen; }
+#footer { background-color: burlywood; }
+
+/* Main Styles: */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation {
+    order: -1;
+}

@@ -5,3 +5,17 @@
 * [ ] Units in CSS
 * [ ] Preprocessors
 * [ ] Writing Sassy CSS (SCSS)
+
+## Responsive Design
+
+* Make website look good on all screen sizes
+* Adaptable / adaptive
+
+
+## CSS Units
+
+* pixel
+* pt, cm, in
+* vh, vw
+* em, rem
+* percent
