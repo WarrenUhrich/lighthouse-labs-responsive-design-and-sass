@@ -66,3 +66,12 @@ p {
 }
 
 ```
+
+## Code Preprocessors / Transpiling
+
+* Compiler - translating / converting a high level programming language into a binary executable
+* Transpilers / Preprocessers - translating or converting a "practical" or "developer-friendly" format into valid code
+    * TypeScript --> JavaScript
+    * CoffeeScript --> JavaScript
+    * SCSS --> CSS
+    * Less --> CSS

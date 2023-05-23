@@ -1,0 +1,19 @@
+h1, h2, p {
+  color: rgb(255, 0, 234);
+}
+
+/* Hi, I'm a comment that will appear even after processing */
+h2 {
+  font-weight: bold;
+  border-bottom: 5px dotted yellow;
+  font-family: Arial;
+}
+
+ul li a {
+  color: green;
+}
+ul li a:hover {
+  color: #4f2;
+}
+
+/*# sourceMappingURL=02-sass-practice.css.map */

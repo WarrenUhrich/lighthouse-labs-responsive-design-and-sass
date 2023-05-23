@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+h1, h2, p {
+    color: $primary-color;
+}
+
+/* Hi, I'm a comment that will appear even after processing */
+
+// This is for a heading...
+h2 {
+    @include standOut(dotted);
+    font-family: Arial;
+}
+
+ul {
+    li {
+        a {
+            color: $link-color;
+
+            &:hover {
+                color: $hover-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+@mixin standOut($borderStyle: solid) {
+    font-weight: bold;
+    border-bottom: 5px $borderStyle yellow;
+}
