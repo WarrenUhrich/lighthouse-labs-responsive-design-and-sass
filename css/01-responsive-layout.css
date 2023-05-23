@@ -1,0 +1,73 @@
+* {
+    background-color: salmon;
+}
+
+nav {
+    background-color: aqua;
+}
+
+header {
+    background-color: darkgoldenrod;
+}
+
+#contact-us {
+    background-color: tomato;
+}
+
+#about-us {
+    background-color: blueviolet;
+}
+
+#services {
+    background-color: palevioletred;
+}
+
+#gallery {
+    background-color: darkkhaki;
+}
+
+footer {
+    background-color:fuchsia;
+}
+
+nav,
+header,
+#contact-us,
+#about-us,
+#services,
+#gallery,
+footer {
+    height: 150px;
+}
+
+/* For larger than phone (tablet) */
+@media (min-width: 400px) {
+    #features {
+        display: flex;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #contact-us {
+        width: 100%;
+    }
+
+    #about-us,
+    #services {
+        width: 50%;
+    }
+}
+
+/* Largest screen (desktop) */
+@media (min-width: 800px) {
+    #contact-us,
+    #about-us,
+    #services {
+        width: calc(100% / 3);
+    }
+
+    #about-us { order: 1; }
+    #services { order: 2; }
+    #contact-us { order: 3; }
+}
