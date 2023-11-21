@@ -57,6 +57,8 @@
 * "Transpiler": a program that changes code in a high-level language into code of another high-level language.
 * We can write SCSS code, but it can't run in the browser... we have to convert it into CSS that the browser can understand.
 
-* CSS
+* SCSS -> CSS
+* LESS -> CSS
 * HTML
-* JS
+* TypeScript -> JS
+* CoffeeScript -> JS
