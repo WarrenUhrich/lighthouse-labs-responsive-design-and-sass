@@ -1,6 +1,6 @@
 # Lighthouse Labs | Responsive Design and SASS
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-responsive-design-and-sass/tree/2023.11.21-web-flex-day-18september2023) | [Vimeo Video Recording (Coming Soon)](#coming-soon)
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-responsive-design-and-sass/tree/2023.11.21-web-flex-day-18september2023) | [Vimeo Video Recording](https://vimeo.com/887054377/5cc5af959e?share=copy)
 
 * [X] Responsive Design—what is it and why incorporate it?
 * [X] Media Queries
