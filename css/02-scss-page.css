@@ -1,0 +1,31 @@
+/* These will show in the final CSS! But // comments will not... */
+h1 {
+  background-color: rgb(117, 163, 75);
+  color: white;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 1em;
+}
+ul li {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+}
+ul li:hover {
+  background: black;
+}
+ul li:first-of-type {
+  color: red;
+  border: 5px solid red;
+}
+ul li:last-of-type {
+  color: green;
+  border: 2px solid green;
+}
+ul li a {
+  color: rgb(117, 163, 75);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=02-scss-page.css.map */

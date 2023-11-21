@@ -1,0 +1,60 @@
+/* html {
+    background: red;
+} */
+
+nav { background-color: aqua; }
+header { background-color: brown; }
+#contact-us { background-color: darkgreen; }
+#other-services { background-color: dodgerblue; }
+article { background-color: mediumseagreen; }
+#gallery { background-color: tomato; }
+footer { background-color: mediumvioletred; }
+
+nav,
+header,
+#contact-us,
+#other-services,
+article,
+#gallery,
+footer {
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav,
+    header,
+    article,
+    #gallery,
+    footer {
+        width: 100%;
+    }
+
+    #contact-us,
+    #other-services {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    article,
+    #contact-us,
+    #other-services {
+        width: calc(100% / 3);
+    }
+
+    nav { order: 1; }
+    header { order: 2; }
+    #contact-us { order: 4; }
+    #other-services { order: 5; }
+    article { order: 3; }
+    #gallery { order: 6; }
+    footer { order: 7; }
+}

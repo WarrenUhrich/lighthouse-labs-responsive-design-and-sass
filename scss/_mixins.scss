@@ -1,0 +1,4 @@
+@mixin box($border-thickness, $color) {
+    color: $color;
+    border: $border-thickness solid $color;
+}

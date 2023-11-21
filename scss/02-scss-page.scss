@@ -1,0 +1,42 @@
+// This is just for testing...
+// body{
+//     background-color: red;
+// }
+
+/* These will show in the final CSS! But // comments will not... */
+
+@import 'variables';
+@import 'mixins';
+
+h1 {
+    background-color: $primary-color;
+    color: white;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 1em;
+
+    li {
+        padding-bottom: 1em;
+        padding-left: 0.5em;
+
+        &:hover {
+            background: black;
+        }
+
+        // @link https://css-tricks.com/useful-nth-child-recipies/
+        &:first-of-type {
+            @include box(5px, red);
+        }
+
+        &:last-of-type {
+            @include box(2px, green);
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+}
