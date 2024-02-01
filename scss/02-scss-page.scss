@@ -31,6 +31,7 @@ ul {
             @include box(5px, blue);
         }
 
+        // @link https://css-tricks.com/useful-nth-child-recipies/
         &:first-child:hover {
             @include box(8px, skyblue);
         }
