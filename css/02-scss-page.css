@@ -1,0 +1,30 @@
+/**
+ * You can use traditional CSS comments!
+ * Note that these WILL show in your CSS file that gets created.
+ */
+html, body {
+  color: darkblue;
+  background: lightblue;
+}
+
+h1 {
+  color: lightblue;
+  background: darkblue;
+}
+
+ul {
+  padding-left: 20px;
+}
+ul li {
+  list-style: square;
+}
+ul li:hover {
+  color: blue;
+  border: 5px solid blue;
+}
+ul li:first-child:hover {
+  color: skyblue;
+  border: 8px solid skyblue;
+}
+
+/*# sourceMappingURL=02-scss-page.css.map */

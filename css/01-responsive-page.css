@@ -1,0 +1,60 @@
+html, body {
+    background: salmon;
+    font-size: 16px;
+}
+
+nav, header, #contact-us, #our-services, #about-us, #gallery, footer {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+nav { background-color: white; }
+header {
+    background-color: rebeccapurple;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#contact-us { background-color: orange; }
+#our-services { background-color: greenyellow; }
+#about-us { background-color: aquamarine; }
+#gallery {
+    background-color: red;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+footer { background-color: burlywood; }
+
+/* We only want to change styles if the screen is large enough... */
+@media screen and (min-width: 450px) {
+    /* nav, header, #contact-us, #our-services, #about-us, #gallery, footer { background-color: blue; } */
+
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #contact-us, #our-services { width: 50%; }
+}
+
+@media screen and (min-width: 600px) {
+
+    #contact-us, #our-services, #about-us { width: calc(100%/3); }
+
+    nav { order: 2; }
+    header { order: 1; }
+    #contact-us { order: 5; }
+    #our-services { order: 4; }
+    #about-us { order: 3; }
+    #gallery { order: 6; }
+    footer { order: 7; }
+}
+
+@media print {
+    nav, header, #contact-us, #our-services, #about-us, #gallery, footer {
+        color: darkblue;
+        font-family: Arial;
+        background-color: gray;
+    }
+}

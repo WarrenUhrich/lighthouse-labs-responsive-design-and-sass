@@ -1,0 +1,38 @@
+// @use 'variables'; // Maintains namespace, requiring variables.$textColor
+@import 'variables';
+@import 'mixins';
+
+/**
+ * You can use traditional CSS comments!
+ * Note that these WILL show in your CSS file that gets created.
+ */
+
+// If you have comments that you DON'T want to show in your final CSS file...
+// Use the double-slash single-line comment instead.
+
+// Let's use'em!
+html, body {
+    color: $textColor;
+    background: $secondaryColor;
+}
+
+h1 {
+    color: $secondaryColor;
+    background: $textColor;
+}
+
+ul {
+    padding-left: 20px;
+
+    li {
+        list-style: square;
+
+        &:hover {
+            @include box(5px, blue);
+        }
+
+        &:first-child:hover {
+            @include box(8px, skyblue);
+        }
+    }
+}
